@@ -1,0 +1,65 @@
+*  {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+header {
+    background-color: #3185FC;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.primeira {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.carroone {
+    margin-right: 7rem;
+    float: left;
+    width: 20rem;
+    height: 20rem;
+}
+
+p {
+    margin: 0;
+    max-width: 25rem;
+    line-height: 1.7rem;
+}
+
+.segunda {
+    background-color: dimgrey;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+.bm2 {
+    width: 13rem;
+    height: 13rem;
+}
+.segunda p {
+    max-width: 20rem;
+}
+
+.terceira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.bm3 {
+    width: 14rem;
+    height: 14rem;
+}
